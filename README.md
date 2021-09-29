@@ -24,7 +24,7 @@ O layout pode ser acessado através da página do Figma, [neste link](https://ww
 
   - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado no computador.
   - É **necessário** possuir o **[Git](https://git-scm.com/)** instalado e configurado no computador.
-  - É **necessário** possuir o **[Expo](https://expo.io/)** e o **[json-server](https://github.com/typicode/json-server)** instalados no computador.
+  - É **necessário** possuir o **[Expo](https://expo.io/)** instalado no computador.
   - É **necessário** possuir um gerenciador de pacotes seja o **[Yarn](https://yarnpkg.com/)** ou **[NPM](https://www.npmjs.com/)**.
 
 
