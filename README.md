@@ -44,4 +44,8 @@ O layout pode ser acessado através da página do Figma, [neste link](https://ww
 ```
 
 <br>
-Projeto criado por Sávio Barbosa!
+Projeto criado por Sávio Barbosa! <br/>
+
+---
+
+<sup>Com a tutoria de [Rodrigo Gonçalves](https://github.com/rodrigorgtic), da [Rocketseat](https://rocketseat.com.br/).</sup>
