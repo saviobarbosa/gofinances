@@ -61,7 +61,7 @@ function AuthProvider({ children }: AuthProviderProps) {
           `https://www.googleapis.com/oauth2/v1/userinfo?alt=json&access_token=${params.access_token}`
         );
         const userInfo = await response.json();
-
+        
         setUser({
           id: userInfo.id,
           email: userInfo.email,
@@ -70,7 +70,7 @@ function AuthProvider({ children }: AuthProviderProps) {
         });
       }
     } catch (error) {
-      throw new Error(error);
+      throw new Error("Error: " + error);
     }
   }
 
@@ -98,7 +98,7 @@ function AuthProvider({ children }: AuthProviderProps) {
         await AsyncStorage.setItem(userStorageKey, JSON.stringify(userLogged));
       }
     } catch (error) {
-      throw new Error(error);
+      throw new Error("Error: " + error);
     }
   }
 

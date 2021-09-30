@@ -29,6 +29,7 @@ export function SignIn() {
   async function handleSignInWithGoogle() {
     try {
       setIsLoading(true);
+      
       return await signInWithGoogle();
     } catch (error) {
       console.log(error);
